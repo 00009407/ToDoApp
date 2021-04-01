@@ -1,7 +1,7 @@
 # ToDoApp web application
 
 ##### Description
-This web application allows users to add, edit, delete notes.
+This web application allows users to add, delete tasks.
 
 ##### How to run app locally
 1.Download or clone the application code
@@ -22,3 +22,7 @@ node app.js
 
 ##### Link to the source code 
 https://github.com/00009407/ToDoApp.git
+
+##### Link to the Glitch platform 
+
+
