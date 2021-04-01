@@ -1,6 +1,6 @@
 :root {
 	font-size: 18px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 }
 
 * {
@@ -33,46 +33,64 @@ a {
 }
 
 .logo > a:hover {
-	color: tomato;
+	color: rgb(89, 71, 255);
 }
 
 .nav > a {
+	color: rgb(119, 0, 255);
 	display: inline-block;
 	padding: 5px 15px;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	font-variant-caps: small-caps;
 }
 
 
 .nav > a:hover {
-	color: tomato;
+	color: rgb(255, 71, 71);
 }
 
 /* homepage styles */
 
 .content-title {
-	margin-top: 150px;
-	padding: 20px 0 0 20px;
-	font-size: 3.5rem;
+	margin-top: 70px;
+	padding: 10px 0 0 20px;
+	color:rgb(255, 71, 200);
+	font-size: 2.5rem;
+}
+
+.content-title2 {
+	margin-top: 0px;
+	padding: 10px 0 0 20px;
+	color:rgb(71, 227, 255);
+	font-size: 1.0rem;
 }
 
 .featured {
 	display: inline-block;
-	margin: 15px 0 0 20px;
+	margin-top: 60px;
+	margin-left: 700px;
 	padding: 10px 20px;
-	background-color: tomato;
-	color: #fff;
-	font-size: 1.4rem;
+	background-color: rgb(74, 71, 255);
+	border-radius: 12px;
+	
+	color:  #fff;
+	font-size: 1.5rem;
 }
 
 /* create page styles */
 .form {
+	margin-left: 260px;
+	color: rgb(0, 139, 93);
 	max-width: 50%;
 	padding: 20px;
+	
 }
 
 .form-title {
+	margin-left: 260px;
+	color: rgb(80, 255, 124);
 	padding: 20px 0 0 20px;
+	
 }
 
 .form > label {
@@ -82,18 +100,22 @@ a {
 }
 
 .input {
+	margin-left: 20px;
 	width: 100%;
 	padding: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid rgb(211, 211, 211);
 	font-size: 1.3rem;
+	background-color: rgba(255, 208, 0, 0.459);
 }
 
 .btn {
 	display: inline-block;
-	background: tomato;
+	background:  rgb(74, 71, 255);
 	margin-top: 15px;
+	margin-left: 220px;
 	font-size: 1.3rem;
 	padding: 10px 20px;
+	border-radius: 12px;
 	border: none;
 	color: #fff;
 	font-family: inherit;
@@ -103,10 +125,10 @@ a {
 	color: #fff;
 }
 
-/* notes page */
-.note-wrapper {
+/* tasks page */
+.task-wrapper {
 	margin-top: 20px;
-	max-width: 60%;
+	max-width: 100%;
 	display: flex;
 	padding: 0 10px;
 	justify-content: space-between;
@@ -114,7 +136,7 @@ a {
 	border-bottom: 1px solid #ccc;
 }
 
-.note {
+.task {
 	display: inline-block;
 	padding: 10px;
 	font-size: 1.5rem;
@@ -124,7 +146,7 @@ a {
 	display: inline-block;
 	padding: 5px 10px;
 	color: #fff;
-	background: tomato;
+	background: rgb(255, 71, 71);
 }
 
 .delete:hover {
@@ -132,11 +154,32 @@ a {
 }
 
 
-/* note detail page */
-.note-title {
+/* task detail page */
+.task-title {
+	color: rgb(0, 139, 104);
 	padding: 20px 0 0 20px;
 }
 
-.note-desc {
+.task-desc {
 	padding: 20px 0 0 20px;
+}
+
+.error,
+.success {
+	display: inline-block;
+	padding: 10px;
+	margin: 20px 0 10px 20px;
+	margin-left: 300px;
+	border: 1px solid #ccc;
+	font-size: 1.3rem;
+}
+
+.error {
+	border-color: red;
+	color: red;
+}
+
+.success {
+	border-color: green;
+	color: green;
 }

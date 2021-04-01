@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  main.content
+    h1.task-title All tasks❤❤❤
+
+    if id
+      p.success task with id #{ id } is deleted! 
+
+    each value in tasks
+      div.task-wrapper
+        a.task(href=`/tasks/${ value.id }`)= value.title
+        a.delete(href=`/tasks/${ value.id }/delete`) Delete🤢😢🤣
