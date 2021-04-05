@@ -1,7 +1,7 @@
 # ToDoApp web application
 
 ##### Description
-This web application allows users to add, delete tasks.
+This web application allows users to add, read and delete tasks.
 
 ##### How to run app locally
 1.Download or clone the application code

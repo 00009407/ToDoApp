@@ -112,11 +112,9 @@ app.get('/api/v1/tasks', (req, res) => {
 
 
 
-app.listen(7070, err => {
-	if(err) throw err
-
+app.listen(process.env.PORT || 7070, () => {
 	console.log('App is running on port 7070...')
-})
+  })
 
 
 function id () {
